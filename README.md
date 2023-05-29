@@ -11,6 +11,7 @@ Gotta be my favorite reverse engineering tool. So go to https://github.com/Natio
 #Usage
 
 So go to file, and create a project. The stm32 is an arm cortex 32-bit RISC archeticture from the datasheet. Now go to file, new project and choose a name and a path for it. Then click the Dragon. Ghidras power is now RELEASED. click file, import, and import the binary. Then choose the language as arm cortex 32 bit little endian. 
+![Screenshot_2023-05-29_01-48-01](https://github.com/mediocrereverse/STM32_binary_pokes/assets/133725400/924bfafe-cbb6-4902-b31b-845ea4860ae8)
 
 Now you should be able to see the actual instructions in assembly language. On the right you should see a decompiler view. It will provide you something that looks kinda like c or whatever the compiled language may look like. Or it may not. Sometimes it sucks. 
 
